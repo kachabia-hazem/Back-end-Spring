@@ -32,13 +32,13 @@ public class Medicament {
 	public void setClassification(Classification classification) {
 		this.classification = classification;
 	}
-	 public Medicament() {
+	/* public Medicament() {
 		super();
 		
 	// TODO Auto-generated constructor stub
-	 }
+	 }*/
 	// Constructor for initialization (if needed)
-    public Medicament(String nomMed, String descMed, String marqueMed, String url, Double prixMed,int code, Date dateCreation, Date dateExpiration) {
+   /* public Medicament(String nomMed, String descMed, String marqueMed, String url, Double prixMed,int code, Date dateCreation, Date dateExpiration) {
         this.nomMed = nomMed;
         this.descMed = descMed;
         this.marqueMed = marqueMed;
@@ -47,7 +47,7 @@ public class Medicament {
         this.code=code;
         this.dateCreation = dateCreation;
         this.dateExpiration = dateExpiration;
-    }
+    }*/
 	public Long getIdMed() {
 		return idMed;
 	}
